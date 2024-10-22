@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "ITC Avant Garde Gothic Std Demi";
+}
+body{
+    background-image:url("./cookies.jpeg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+header{
+    z-index: 22;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    width:100%;
+}
+.firstp{
+    height:100vh;
+    width:100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+.container{
+    display: flex;
+}
+.subcontainer1{
+    width:50%;
+    height: 100vh;
+    background-color: #e17bb7;
+    top:0;
+    position: relative;
+    
+}
+.class1{
+    display: flex;
+    justify-content: space-around;
+    width:400px;
+}
+.img1{
+    position: absolute;
+    top:0;
+    left:45%;
+}
+.img2{
+    position: absolute;
+    top:13%;
+}
+.img3{
+    position: absolute;
+    top:65%;
+}
+.img4{
+    position: absolute;
+    top:60%;
+    left:60%;
+}
+.img5{
+    position: absolute;
+    top:20%;
+    left:88%;
+}
+.img6{
+    position: absolute;
+    top:13%;
+    left:13%;
+}
+.subcontainer2{
+    width:50%;
+    background-color: white;
+}
+.class2{
+    margin-top: 15%;
+    margin-left: 15%;
+}
+.img7{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.class3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.initial{
+    display: flex;
+    justify-content: space-evenly;
+    width:130px;
+    position: fixed;
+    z-index: 55;
+    top:90%;
+    left:30px;
+}
+.container2{
+    background-image: url("./cookies.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    margin: auto;
+    
+}
+.dib{
+    background-image: url("./cookies.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    width: 100%;
+    height:100vh;
+}
+.subchild1{
+    width:50%;
+    background-color: #fff0e0;
+    padding-left: 5%;
+    margin-top:7%;
+    width: 100vh;
+    position: relative;
+    padding-top: 7%;
+}
+.subchild2{
+    width:50%;
+    background-color: #fff0e0;
+    height: 100vh;
+    margin-top: 7%;
+    padding-top: 15%;
+    padding-left: 10%;
+}
+.div1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 4px;
+}
+.div4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.div5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.subdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 4px;
+}
+.subdiv2{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.subcontainer3{
+    background-color: white;
+    padding-top: 5%;
+}
+.page3{
+    margin: auto;
+    text-align: center;
+}
+.pages{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.line1{
+    margin-left: 65px;
+    position: relative;
+}
+.pages1{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 170px;
+}
+.line2{
+    margin-left: 65px;
+}
+.linee{
+    display: none;
+    position:absolute;
+    top:0;
+    left:15%;
+    transform: scale(1.5);
+}
+.line1:hover .linee{
+    display: block;
+}
+
+
+
+.line1:hover .lin{
+    display: none;
+}
+.line2{
+    position: relative;
+}
+.linee1{
+    display: none;
+    position:absolute;
+    top:0;
+    left:15%;
+    transform: scale(1.5);
+}
+.line2:hover .linee1{
+    display: block;
+}
+.line2:hover .linn{
+    display: none;
+}
+.span:hover{
+    background-color: black;
+    color: white;
+}
+.line1:hover p .me{
+    position: relative;
+    top:40%
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 300px;
+    color: white;
+    display: flex;
+}
+.cont{
+    height: 5vh;
+    width:100%;
+    background-color: white;
+}
+
+
+
